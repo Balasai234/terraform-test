@@ -5,7 +5,6 @@ provider "aws" {
 variable "servers" {
   default = {
     server1 = "t3.micro"
-    server2 = "t3.micro"
     server3 = "t3.micro"
   }
 }
